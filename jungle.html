@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungle Explorer</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+   
+
+
+<style>
+section{
+    height:500px;
+    padding:50px;
+}
+
+#home{
+    background-color:rgb(144, 160, 238);
+}
+
+#animals{
+    background-color:rgb(255, 236, 224);
+}
+
+#adventure{
+    background-color:lightblue;
+}
+
+#contact{
+    background-color:lightcoral;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+}
+</style>
+</head>
+
+
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="50" tabindex="0">
+
+<!-- Navbar -->
+<nav id="navbar-example" class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">🌴 Jungle Explorer</a>
+
+        <div class="navbar-nav">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#animals">Animals</a>
+            <a class="nav-link" href="#adventure">Adventure</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div id="jungleCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#jungleCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#jungleCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#jungleCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="download.jpg" class="d-block w-100" alt="Jungle" height="500">
+            </div>
+
+            <div class="col-md-6">
+                <img src="peru.jpg" class="d-block w-100" alt="Peru Jungle" height="500">
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-caption">
+        <h3>Welcome to the Jungle</h3>
+    </div>
+</div>
+
+    <div class="carousel-item">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="download (1).jpg" class="d-block w-100" alt="Tiger" height="500">
+            </div>
+
+            <div class="col-md-4">
+                <img src="tiger.jpg" class="d-block w-100" alt="Tiger" height="500">
+            </div>
+
+            <div class="col-md-4">
+                <img src="download (2).jpg" class="d-block w-100" alt="Lioness and Cub" height="500">
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-caption">
+        <h3>Wild Animals</h3>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="solider explore.jpg" class="d-block w-100" alt="Adventure" height="500">
+            </div>
+
+            <div class="col-md-4">
+                <img src="jungle ex.jpg" class="d-block w-100" alt="Adventure" height="500">
+            </div>
+
+            <div class="col-md-4">
+                <img src="peru.jpg" class="d-block w-100" alt="Adventure" height="500">
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-caption">
+        <h3>Jungle Adventure</h3>
+    </div>
+</div>
+</div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#jungleCarousel"
+            data-bs-slide="prev">
+
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#jungleCarousel"
+            data-bs-slide="next">
+
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+</div>
+
+<!-- Scrollspy Sections -->
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to the Jungle Explorer website.</p>
+</section>
+
+<section id="animals">
+    <h2>Animals</h2>
+    <p>Discover lions, tigers, monkeys, and exotic wildlife.</p>
+</section>
+
+<section id="adventure">
+    <h2>Adventure</h2>
+    <p>Explore exciting jungle trails and hidden treasures.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: jungleexplorer@example.com</p>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
